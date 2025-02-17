@@ -1,0 +1,264 @@
+
+body, html{
+    overflow-x: hidden;
+}
+body{
+    display: flex;
+    flex-direction: column;
+	margin:1%;
+
+}
+
+html{
+    height: 100%;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    left:90%;
+    margin-left:-90px;
+    top:105px;
+    position:absolute;
+}
+.nav>li>a:hover, .nav>li>a:focus, .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background:#FFB6C1;
+}
+.dropdown {
+    background:#fff;
+    width:200px;    
+}
+.dropdown-menu>li>a {
+    color:#428bca;
+}
+.dropdown ul.dropdown-menu {
+    border-radius:4px;
+    box-shadow:none;
+    margin-top:20px;
+    width:200px;
+}
+.dropdown ul.dropdown-menu:before {
+    content: "";
+    border-bottom: 10px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    right: 16px;
+    z-index: 10;
+}
+.dropdown ul.dropdown-menu:after {
+    content: "";
+    border-bottom: 12px solid #FFB6C1;
+    border-right: 12px solid transparent;
+    border-left: 12px solid transparent;
+    position: absolute;
+    top: -12px;
+    right: 14px;
+    z-index: 9;
+}
+
+#navbar{
+	overflow: hidden;
+	background-color: #333;
+}
+
+#navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+.active
+{
+	background-color:#FFAFA2;
+	color:white;
+}
+.background{
+	background:#FFAFA2;
+	color:white;
+}
+#navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 33.33%; /* Five links of equal widths */
+  text-align: center;
+  display: block; 
+}
+#navbar a:hover {
+  background-color: #FF0000;
+}
+  @media (max-width: 800px) {
+  nav ul { display: none; }
+  #main{ display:inline-block; }
+  }
+@media screen and (max-width: 500px) {
+  #navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+ .center{
+		display: block;
+		margin-right: 40%;
+		
+	}
+}
+
+
+* {box-sizing: border-box}
+
+figure{
+       text-align:center;}
+
+
+
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+    display:none;
+  }
+  
+
+@media screen and (max-width : 767px)
+{
+  .centered
+  {
+    font-size:22px;
+  }
+}
+
+
+.logo{
+    border:none;
+    font-style:normal;
+}
+
+
+* {box-sizing: border-box}
+
+/* style the container */
+.container1 {
+  position: relative;
+  border-radius: 5px;
+  background-color: #FFAFA2;
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.center{
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+/*Footer*/
+
+
+.site-footer {
+  padding: 5em 0;
+  background: #262626;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.site-footer a {
+  color: #cf1d16;
+  border-bottom: 1px solid transparent;
+}
+
+.site-footer a:hover {
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.site-footer h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.site-footer .footer-link li {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.site-footer hr {
+  width: 100%;
+}
+
+.footer-social a {
+  line-height: 0;
+  border-radius: 50%;
+  margin: 0 5px 5px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer-social a:hover {
+  background: #fff;
+  color: #000;
+}
+
+@media screen and (max-width: 770px) {
+    .site-footer {
+        text-align: center;
+    }
+}
+
+
+
+
+#myFooter{
+   flex: 0 0 auto;
+}
+i{
+    color:black;
+    padding-right:10px;
+}
+#myFooter{
+   flex: 0 0 auto;
+}
